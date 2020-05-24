@@ -14,8 +14,9 @@ x = symbols('x')
 y = symbols('y')
 
 #-------------SETTINGS------------------
-xdot = y
-ydot = -2*x-3*y
+# Expresiones de x punto e y punto
+xdot = 2*x*y
+ydot = y**2-x**2
 
 normalize = True
 stream_plot = False
@@ -26,9 +27,7 @@ miny, maxy = -3, 3
 
 # Cantidad de flechas en x y en y (el producto es el total)
 xarrows, yarrows = 30, 30
-#---------------------------------------
-
-# Funcion principal
+#----------Funcion principal-----------
 def two_D_flow(xdot,ydot,norm, streamplot):
     '''
     Graficar el flujo 2D dadas las expresiones de x_dot e y_dot
