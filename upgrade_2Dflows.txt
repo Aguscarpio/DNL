@@ -1,7 +1,7 @@
 Posibles upgrades para el código de flujos 2D:
 
 - Poder darle coordenadas polares
-- Meter un slider asociado a un parámetro (Para visualizar bifurcaciones)
+- Meter un slider asociado a un parámetro (Para visualizar bifurcaciones) (HECHO)
 - Colormap a elección y colorbar optativo
-- Marcar los puntos fijos y nulclinas
+- Marcar los puntos fijos y nulclinas (HECHO)
 - Automatizar el tema del rango del grafico (por ejemplo elegir un rango tal que no queden afuera los puntos fijos)
